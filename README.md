@@ -1,9 +1,9 @@
 # Alma_Update_Vendors_API
 
- - run_inactive.sh: read the text file (the name of file from command line), and call the update_vendor_inactive.php with the vendor code (ID) line by line
- - update_vendor_inactive.php: get the vendor info from API, replace ACTIVE status into INACTIVE, then update the vendor info (use API put method)
+ - run_inactive.sh: read the text file (the name of file from command line), and execute the command update_vendor_inactive.php with the vendor code (ID) line by line
+ - update_vendor_inactive.php: get the vendor info with API get method, replace ACTIVE status into INACTIVE, then update the vendor info (use API put method)
  - run_active.sh: read the text file (the name of file from command line), and call the update_vendor_active.php with the vendor code (ID) line by line  
- - update_vendor_active.php: get the vendor info from API, replace INACTIVE status into ACTIVE, then update the vendor info (use API put method)
+ - update_vendor_active.php: get the vendor info with API get method, replace INACTIVE status into ACTIVE, then update the vendor info (use API put method)
 
 Sample command:  ./run_inactive.sh list_vendor_codes.csv
 
