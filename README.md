@@ -6,6 +6,7 @@
  - update_vendor_active.php: get the vendor info from API, replace INACTIVE status into ACTIVE, then update the vendor info (use API put method)
 
 Sample command:  ./run_inactive.sh list_vendor_codes.csv
+
 list_vendor_codes.csv: text file containing vendor codes line by line ...
  
 Note: It takes around 5 seconds to update one vendor, so the script will take around 8-9 hours for updating 8000+ vendors.
